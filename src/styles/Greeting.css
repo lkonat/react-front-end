@@ -1,0 +1,18 @@
+.greeting h1{
+  margin: 0px 0px 20px 4px;
+  padding: 0px;
+  color: var(--green);
+  /* font-family: var(--font-mono); */
+  font-family: var(--font-mono);
+  font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
+  font-weight: 400;
+}
+.big-heading{
+  margin: 0px;
+  font-size: clamp(40px, 5vw, 80px);
+}
+.greeting h3{
+  margin-top: 20px;
+  color: var(--slate);
+  line-height: 0.9;
+}
